@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<main class="case-study container">
+  <a href="{{ '/' | relative_url }}" class="text-link back-link">← Back to homepage</a>
+  <h1>{{ page.title }}</h1>
+  {% if page.lab %}<p class="research-lab">{{ page.lab }}</p>{% endif %}
+  {% if page.summary %}<p class="case-summary">{{ page.summary }}</p>{% endif %}
+  {% if page.report %}<p><a class="text-link" href="{{ page.report | relative_url }}" download>Download Technical Report ↓</a></p>{% endif %}
+  <div class="case-content">{{ content }}</div>
+</main>

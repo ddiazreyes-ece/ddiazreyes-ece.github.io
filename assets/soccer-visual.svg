@@ -1,0 +1,7 @@
+<svg viewBox="0 0 525 269" xmlns="http://www.w3.org/2000/svg"><rect fill="#163d50" height="269" width="525"></rect>
+<g transform="translate(53 19)"><rect fill="#2d7168" height="230" width="420"></rect><g fill="none" opacity=".82" stroke="#eaf2e8" stroke-width="2"><rect height="210" width="400" x="10" y="10"></rect><path d="M210 10V220"></path><circle cx="210" cy="115" r="41"></circle><rect height="105" width="70" x="10" y="62"></rect><rect height="105" width="70" x="340" y="62"></rect><rect height="51" width="27" x="10" y="90"></rect><rect height="51" width="27" x="383" y="90"></rect></g>
+<g><circle cx="95" cy="63" fill="#efc46f" r="7"></circle><circle cx="162" cy="134" fill="#efc46f" r="7"></circle><circle cx="288" cy="75" fill="#efc46f" r="7"></circle><circle cx="345" cy="169" fill="#efc46f" r="7"></circle><circle cx="233" cy="185" fill="#9bcdec" r="7"></circle><circle cx="130" cy="176" fill="#9bcdec" r="7"></circle><circle cx="336" cy="54" fill="#9bcdec" r="7"></circle></g>
+<g opacity=".52" stroke="#f7fbff" stroke-dasharray="5 5"><path d="M95 63L162 134L233 185"></path><path d="M288 75L345 169"></path></g>
+<g fill="none" opacity=".67" stroke="#d6f1f0" stroke-width="1.1"><rect height="37" width="29" x="80" y="40"></rect><rect height="37" width="28" x="147" y="112"></rect><rect height="37" width="28" x="274" y="52"></rect></g></g>
+<text fill="#dff2fa" font-family="Inter,sans-serif" font-size="10" letter-spacing="1.1" x="17" y="17">NORMALIZED PITCH / ILLUSTRATIVE VIEW</text>
+</svg>

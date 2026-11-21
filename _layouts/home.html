@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<main id="main-content">
+  <section id="about" class="about-me container">
+    <div class="portrait-area">
+      <img class="headshot" src="{{ '/assets/header-photo.jpg' | relative_url }}" alt="Portrait of Daniel Diaz" width="450" height="575">
+    </div>
+    <div class="about-me-text">
+      <h1 class="greeting-content">Engineering at the intersection of hardware, control, and intelligent systems.</h1>
+      <p class="intro">Hi! I'm Daniel Diaz, a student in Electrical and Computer Engineering at CU Boulder. I believe emerging technologies in AI and robotics can help people live better lives. My interests include robotics, control systems, human-robot interaction, and embedded systems.</p>
+      <div class="about-actions">
+        <a class="primary-btn" href="#projects">Explore My Work <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="{{ '/documents/LatestResume.pdf' | relative_url }}" download>Download Resume <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="portfolio-section">
+    <div class="container">
+      <div class="section-heading"><h2>Personal Projects</h2></div>
+      <div class="section-body">
+        {% assign items = site.projects | sort: 'order' %}
+        {% for item in items %}
+          {% include work-row.html item=item kind="project" %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="research" class="portfolio-section">
+    <div class="container">
+      <div class="section-heading"><h2>Research Experience</h2></div>
+      <div class="section-body">
+        {% assign items = site.research | sort: 'order' %}
+        {% for item in items %}
+          {% include work-row.html item=item kind="research" %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="pcb" class="portfolio-section">
+    <div class="container">
+      <div class="section-heading"><h2>PCB Design &amp; Manufacture</h2></div>
+      <div class="section-body">
+        {% assign items = site.pcbs | sort: 'order' %}
+        {% for item in items %}
+          {% unless item.published == false %}
+            {% include work-row.html item=item kind="pcb" %}
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</main>

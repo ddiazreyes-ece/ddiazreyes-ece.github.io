@@ -1,0 +1,6 @@
+<svg viewBox="0 0 525 269" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="ancbg" x1="0" x2="1"><stop stop-color="#123651"></stop><stop offset="1" stop-color="#235b7d"></stop></linearGradient></defs><rect fill="url(#ancbg)" height="269" width="525"></rect>
+<g stroke="#8baec8" stroke-opacity=".22"><path d="M38 48H490M38 89H490M38 130H490M38 171H490M38 212H490"></path><path d="M70 30V233M145 30V233M220 30V233M295 30V233M370 30V233M445 30V233"></path></g>
+<path d="M35 136 C50 42 65 210 80 133 S110 35 125 135 S155 225 170 130 S200 49 215 135 S245 211 260 133 S290 55 305 130 S335 218 350 128 S380 51 395 130 S425 212 440 132 S470 60 489 135" fill="none" opacity=".86" stroke="#8bd9e0" stroke-width="3"></path>
+<path d="M35 136 C55 116 66 158 80 135 S110 115 125 135 S155 159 170 136 S200 117 215 135 S245 153 260 133 S290 118 305 133 S335 151 350 132 S380 113 395 129 S425 153 440 133 S470 117 489 135" fill="none" stroke="#fff2ba" stroke-width="3"></path>
+<rect fill="#0d2943" height="25" rx="0" width="182" x="26" y="20"></rect><text fill="#f5f9fa" font-family="Inter, sans-serif" font-size="11" letter-spacing="1" x="36" y="37">ACOUSTIC RESPONSE · CONCEPT</text><text fill="#d6e4ee" font-family="Inter,sans-serif" font-size="10" x="35" y="249">Illustrative signals · not experimental data</text>
+</svg>
