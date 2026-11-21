@@ -4,10 +4,7 @@ order: 2
 lab: "Yangming Shi Research Group & Intelligent Robotics and Systems Lab"
 collaborators: []
 summary: >
-  Evaluating particle-based world models on controlled rope-pushing interactions,
-  including direct contact, off-center pushes, and missed contacts. The
-  research compares predicted particle states against simulated ground truth
-  and visualizes contact-specific error.
+  Investigated robotic communication and perception systems to support the development of an autonomous snow-plowing platform. Reverse-engineered industrial robot communication protocols through network packet analysis, examined PCB signal routing to identify camera interfaces, and developed a Raspberry Pi 5 video-capture prototype to support future system integration.
 image: /assets/yarbo-photo.webp
 image_alt: "Illustrative rope motion: model prediction compared with ground truth"
 ---

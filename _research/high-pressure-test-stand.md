@@ -2,12 +2,9 @@
 title: "High Pressure Test Stand for Characterization of Industrial Ceramic Cell"
 order: 3
 lab: "Colorado Fuel Cell Center (CFCC)"
-collaborators: ["Megan Castro", "Jonathan Evans", "Neal Sullivan"]
+collaborators: ["Meghan Castro", "Jonathan Evans", "Neal Sullivan"]
 summary: >
-  Evaluating particle-based world models on controlled rope-pushing interactions,
-  including direct contact, off-center pushes, and missed contacts. The
-  research compares predicted particle states against simulated ground truth
-  and visualizes contact-specific error.
+  Designed and implemented mechanical and instrumentation upgrades to a high-pressure hydrogen membrane-reactor test stand in collaboration with Utility Global. Calibrated six mass-flow controllers and commissioned hardware modifications, validating operation at approximately 850°C and 6 atm to support ceramic-cell characterization and industrial decarbonization research.
 image: /assets/particleformer-visual.svg
 image_alt: "Illustrative rope motion: model prediction compared with ground truth"
 ---

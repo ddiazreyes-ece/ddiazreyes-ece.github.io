@@ -2,9 +2,7 @@
 title: "Capstone: Portable Multi-Effects Guitar Amplifier"
 order: 1
 summary: >
-  A feedback active-noise-cancellation system combining acoustic modeling,
-  classical controller design, adaptive filtering, and embedded AI. The project
-  documents the plant model, FxLMS adaptation, and implementation constraints.
+  Developing a portable digital guitar amplifier integrating Neural Amp Modeler (NAM) for machine-learning-based amplifier emulation and real-time digital signal processing for customizable audio effects. Built around a Daisy Seed microcontroller, the design combines analog signal conditioning, audio amplification, and embedded software, with an emphasis on minimizing latency and preserving audio quality.
 image: /assets/anc-visual.svg
 image_alt: "Illustrative acoustic response visualization, not measured data"
 technologies:
