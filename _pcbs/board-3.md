@@ -1,6 +1,6 @@
 ---
 title: "Custom ATmega328P Arduino-Compatible Board"
-order: 3
+order: 1
 summary: >
   Designed, manufactured, assembled, and debugged an ATmega328P-based board
   with Arduino IDE support. Design includes shield-compatible headers, power distribution,

@@ -1,6 +1,6 @@
 ---
 title: "Four-Layer Embedded Controller PCB"
-order: 4
+order: 2
 summary: >
   Four-layer PCB integrating an ATmega328P controller, peripheral circuits,
   and additional sensing functions. Bring-up limitations and debugging

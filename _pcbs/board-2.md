@@ -1,6 +1,6 @@
 ---
 title: "Return Plane and Decoupling Comparison Board"
-order: 2
+order: 3
 summary: >
   Compared two 74AHC14 circuits: one with a proper return plane and close
   decoupling, the other intentionally using poor layout practices. Measurements

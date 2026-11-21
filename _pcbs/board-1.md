@@ -1,6 +1,6 @@
 ---
 title: "555 Timer LED Test Board"
-order: 1
+order: 4
 summary: >
   Designed and assembled a 5 V NE555 astable timer board targeting about
   500 Hz. Oscilloscope measurements verified frequency, switching noise,
