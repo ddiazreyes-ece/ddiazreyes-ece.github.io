@@ -1,6 +1,6 @@
 ---
 title: "Totale Vision"
-order: 2
+order: 3
 summary: >
   A monocular soccer-analysis pipeline using object detection and homography
   to map players from camera footage onto an overhead pitch. The case study

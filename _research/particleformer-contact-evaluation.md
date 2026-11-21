@@ -1,8 +1,8 @@
 ---
 title: "ParticleFormer Contact Evaluation"
 order: 1
-lab: ""
-collaborators: []
+lab: "Human Interaction & RObotics Lab (HIRO)"
+collaborators: ["Ava Abderezaei", "Jesse Ruder-Hook"]
 summary: >
   Evaluating particle-based world models on controlled rope-pushing interactions,
   including direct contact, off-center pushes, and missed contacts. The

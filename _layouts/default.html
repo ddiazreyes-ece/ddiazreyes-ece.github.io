@@ -12,6 +12,30 @@
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
 </head>
 <body>
+  <svg
+    width="0"
+    height="0"
+    aria-hidden="true"
+    style="position: absolute;"
+  >
+    <defs>
+      <clipPath
+        id="smooth-bookmark"
+        clipPathUnits="objectBoundingBox"
+      >
+        <path d="
+          M 0 0
+          H 0.90
+          C 0.955 0, 1 0.08, 1 0.18
+          V 0.82
+          C 1 0.92, 0.955 1, 0.90 1
+          H 0
+          L 0.145 0.5
+          Z
+        "/>
+      </clipPath>
+    </defs>
+  </svg>
   {% include header.html %}
   {{ content }}
   <script src="{{ '/main.js' | relative_url }}" defer></script>

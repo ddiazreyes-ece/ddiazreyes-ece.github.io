@@ -1,6 +1,6 @@
 ---
 title: "Adaptive Active Noise Cancellation"
-order: 1
+order: 2
 summary: >
   A feedback active-noise-cancellation system combining acoustic modeling,
   classical controller design, adaptive filtering, and embedded AI. The project
