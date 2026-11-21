@@ -113,16 +113,24 @@ h1, h2, h3 { font-family: 'Lato', sans-serif; font-weight: 700; }
 .research-collaborators strong { font-weight: 600; }
 
 /* Bookmark: triangular notch on LEFT, clickable, same in all sections. */
-.bookmark-art { grid-column: 2; grid-row: 1; display: block;
-  position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden;
-  background: #dceaf1; cursor: pointer;
-  .work-row .bookmark-art {
-    clip-path: url("#smooth-bookmark");
-    border-radius: 2;
-    overflow: hidden;
-  }
+.bookmark-art {
+  grid-column: 2;
+  grid-row: 1;
+  display: block;
+  position: relative;
+
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+
+  background: #dceaf1;
+  cursor: pointer;
+
+  clip-path: url("#smooth-bookmark");
+
   transition: transform .28s ease, filter .28s ease;
-  transform-origin: center; }
+  transform-origin: center;
+}
 .bookmark-art img { width: 100%; height: 100%; object-fit: cover;
   transition: transform .34s ease; }
 .bookmark-art:hover, .bookmark-art:focus-visible {
