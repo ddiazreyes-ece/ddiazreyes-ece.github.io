@@ -7,6 +7,7 @@ summary: >
   are documented in the class report.
 image: /assets/board-4.svg
 image_alt: "Placeholder image for four-layer PCB"
+report: /documents/Board-4-Report.docx
 ---
 ## Project Overview
 
