@@ -1,0 +1,34 @@
+name: Validate Jekyll Website
+
+on:
+  push:
+    branches:
+      - jekyll-testing
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build Jekyll website
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload generated website
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-preview
+          path: ./_site
+          if-no-files-found: error

@@ -1,0 +1,43 @@
+
+title: "Daniel Diaz | Engineering Portfolio"
+description: "Electrical and Computer Engineering portfolio"
+
+url: "https://ddiazreyes-ece.github.io"
+baseurl: ""
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+  research:
+    output: true
+    permalink: /research/:name/
+
+  pcbs:
+    output: true
+    permalink: /pcb/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: case-study
+
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: case-study
+
+  - scope:
+      path: ""
+      type: pcbs
+    values:
+      layout: case-study
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
