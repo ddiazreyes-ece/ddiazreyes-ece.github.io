@@ -8,7 +8,7 @@ image_alt: "Illustrative acoustic response visualization, not measured data"
 technologies:
   - KiCAD
   - Python
-  - Neural Amp Modifier (NAM)
+  - Neural Amp Modeler (NAM)
   - Daisy Seed
 ---
 ## Project Overview
