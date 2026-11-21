@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" role="img" aria-label="Placeholder four-layer PCB illustration">
-<rect width="700" height="400" fill="#dfeaf1"/><rect x="65" y="35" width="570" height="330" rx="12" fill="#176078"/>
-<g fill="none" stroke="#d5b56a" stroke-width="5" opacity=".85"><path d="M135 90H250V150H350M135 150H215V250H305M565 90H465V150H400M565 280H470V230H390"/></g>
-<g fill="#173b52"><rect x="300" y="130" width="120" height="120" rx="4"/><rect x="130" y="270" width="90" height="40"/><rect x="475" y="270" width="90" height="40"/></g>
-<text x="350" y="340" font-size="19" text-anchor="middle" fill="white" font-family="sans-serif">ILLUSTRATIVE PLACEHOLDER</text>
-</svg>

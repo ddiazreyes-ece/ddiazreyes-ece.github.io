@@ -5,7 +5,7 @@ summary: >
   Designed, manufactured, assembled, and debugged an ATmega328P-based board
   with Arduino IDE support. Design includes shield-compatible headers, power distribution,
   decoupling, and report compares the board to a .
-image: /assets/board-3.svg
+image: /assets/board-3.png
 image_alt: "Illustrative custom Arduino-compatible PCB"
 report: /documents/Board-3-Report.docx
 ---
